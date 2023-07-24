@@ -1,0 +1,14 @@
+.banner-principal-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 5%;
+  background-color: rgb(219, 203, 223);
+  color: rgb(141, 55, 163);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.point{
+  color: rgb(76, 10, 92);
+}

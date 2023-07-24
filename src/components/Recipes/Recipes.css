@@ -1,0 +1,54 @@
+.content-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 3%;
+  background-color: rgb(219, 203, 223);
+  color: rgb(141, 55, 163);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.line{
+  text-align: center;
+  position: relative;
+  width:940px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+ul{
+  list-style-type: none;
+  font-weight: 550;
+}
+
+li{
+  text-align: center;
+}
+
+.buy-button{
+  background-color: transparent;
+  outline: 0;
+  padding: 5px 8px;
+  border: 2px solide rgb(141, 55, 163);
+  border-radius: 6px;
+  transition: all 0.4s ease-in-out;
+}
+
+.buy-button:hover{
+  transform: scale(0.95);
+}
+
+.image-product{
+  padding: 100px;
+  margin: 0 auto;
+  background-color: gray;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.recipes-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
