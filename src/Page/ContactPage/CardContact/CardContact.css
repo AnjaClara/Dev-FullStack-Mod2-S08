@@ -1,0 +1,33 @@
+.body-map{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(219, 203, 223);
+  color: rgb(141, 55, 163);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.top, .bottom {
+  padding: 20px;
+  background-color: rgb(219, 203, 223);
+  color: rgb(141, 55, 163);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: -8px;
+}
+
+.map{
+  background-color: rgb(219, 203, 223);
+}
+
+.local {
+  width: 50%;
+  float: left;
+  height: 50px;
+ }
+ 
+.contato {
+  border-left: 2px solid;
+  box-sizing: border-box;
+}

@@ -6,8 +6,9 @@ function Recipes(props) {
   const ingredientsItem = (ingredientItem) =>{
     return(
         <>
+        <br></br>
         <img className='image-product' ></img>
-        <li>{ingredientItem.title}</li>
+        <li><h2>{ingredientItem.title}</h2></li>
         <li>{ingredientItem.price}</li>
         <li>{ingredientItem.text}</li>
         <button className='buy-button'>Compre</button>
@@ -19,7 +20,7 @@ function Recipes(props) {
     <div className='content-fluid'>
 
       <div className='line col-sm-6 col-md-4 col-lg-3 mb-5'>
-        <ul className='recipes-wrappers'>
+        <ul className='recipes-wrappers list-group'>
           {props.recipes.length >0
             ? props.recipes.map(ingredientsItem)
             : emptyMenu()

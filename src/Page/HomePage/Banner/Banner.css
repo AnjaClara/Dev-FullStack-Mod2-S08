@@ -1,0 +1,30 @@
+.banner-principal-wrapper{
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 5%;
+  background-color: rgb(219, 203, 223);
+  color: rgb(141, 55, 163);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.point{
+  color: rgb(76, 10, 92);
+}
+
+form{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.descricao-input .input1{
+  border-color: rgb(141, 55, 163);
+  background-color: rgba(245, 204, 255, 0.507);
+}
+
+.legenda-input .input2{
+  border-color: rgb(141, 55, 163);
+  background-color: rgba(245, 204, 255, 0.507);
+}

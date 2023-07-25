@@ -1,0 +1,14 @@
+.menu-wrapper{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-wrapper li{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+}
