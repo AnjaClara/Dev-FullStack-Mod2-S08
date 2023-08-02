@@ -1,5 +1,6 @@
 import './Recipes.css'
 import PropTypes from 'prop-types';
+import Busca from './Busca';
 
 function Recipes(props) {
   
@@ -17,9 +18,9 @@ function Recipes(props) {
   }
 
   return(
-    <div className='content-fluid'>
-
+    <div className='content-fluid'>    
       <div className='line col-sm-6 col-md-4 col-lg-3 mb-5'>
+      <Busca/>
         <ul className='recipes-wrappers list-group'>
           {props.recipes.length >0
             ? props.recipes.map(ingredientsItem)

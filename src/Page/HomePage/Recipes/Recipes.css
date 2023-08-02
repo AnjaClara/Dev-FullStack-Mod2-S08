@@ -25,6 +25,10 @@ li{
   text-align: center;
 }
 
+input{
+  border-color: rgb(141, 55, 163);
+  background-color: rgba(245, 204, 255, 0.507);
+}
 
 .buy-button{
   background-color: transparent;

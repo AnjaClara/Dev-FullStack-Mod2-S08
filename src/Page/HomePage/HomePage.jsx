@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { BannerContext, BannerProvider } from "../../context/BannerContext";
+import Faq from "../FAQ/Faq";
 import Banner from "./Banner/Banner"
 import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
@@ -36,6 +37,7 @@ function HomePage() {
         <Banner/>
       </BannerProvider>
       <Recipes recipes={recipes}/>
+      <Faq/>
       <Footer/>
     </>
   )

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { BannerContext, BannerProvider } from "../../context/BannerContext";
+import Faq from "../FAQ/Faq";
 import Banner from "../HomePage/Banner/Banner";
 import Footer from "../HomePage/Footer/Footer";
 import Header from "../HomePage/Header/Header";
@@ -16,6 +17,7 @@ const ContactPage = () => {
       </BannerProvider>
       <FormContact/>
       <CardContact/>
+      <Faq/>
       <Footer/>
     </div>
   );
